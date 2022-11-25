@@ -53,28 +53,11 @@ There are many registers involved with the UART blocks. UART0 and UART1 have a s
 
 Figure -02 UART interface virtual terminal
 
-### Kiel - Program 
+## Kiel - Program:
 
+## Output:
 
+### Circuit Diagram:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Result :
-UART is programmed for transmitting serial data on virtual terminal  
-
-### Output screen shots :
-
+## Result:
+Thus, UART is programmed for transmitting serial data on virtual terminal.
