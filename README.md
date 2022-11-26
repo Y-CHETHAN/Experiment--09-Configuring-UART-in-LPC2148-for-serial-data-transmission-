@@ -55,7 +55,7 @@ There are many registers involved with the UART blocks. UART0 and UART1 have a s
 
 Figure -02 UART interface virtual terminal
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Kiel - Program:
 ```c
