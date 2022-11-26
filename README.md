@@ -92,6 +92,8 @@ int main (void)
 ## Output:
 ![image](https://user-images.githubusercontent.com/75234991/204091919-92ef39d2-29e4-4a57-9163-77317bd41b2b.png)
 
+<br><br><br><br><br><br><br>
+
 ### Circuit Diagram:
 <img width="1515" alt="Experiment 9" src="https://user-images.githubusercontent.com/75234991/204091528-1fea8c37-fe17-4076-9ad2-62373b11be58.png">
 
