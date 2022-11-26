@@ -54,10 +54,44 @@ There are many registers involved with the UART blocks. UART0 and UART1 have a s
 Figure -02 UART interface virtual terminal
 
 ## Kiel - Program:
+```c
+#include <LPC213x.H>
+char a;
+void uart0_init()
+{
+	PINSEL0 = 0x00000005;
+	U0LCR = 0x83;
+	U0DLL = 97;
+	U0LCR = 0x03;
+}
 
+void uart0_putc(char c)
+{
+	while(!(U0LSR & 0x20)); 
+	U0THR = c;
+}
+
+int uart0_getc (void)
+{
+	while (!(U0LSR & 0x01));
+	return (U0RBR);
+}
+
+int main (void)
+{
+	uart0_init();
+	while (1)
+		{
+			a=uart0_getc();
+			uart0_putc(a);
+		}
+}
+```
 ## Output:
+![image](https://user-images.githubusercontent.com/75234991/204091887-7bbeb85f-346a-453f-b5de-5820b965fb4d.png)
 
 ### Circuit Diagram:
+<img width="1515" alt="Experiment 9" src="https://user-images.githubusercontent.com/75234991/204091528-1fea8c37-fe17-4076-9ad2-62373b11be58.png">
 
 ## Result:
 Thus, UART is programmed for transmitting serial data on virtual terminal.
