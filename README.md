@@ -14,6 +14,8 @@ As UART is a serial communication, the data is transmitted in a series of packet
 
 Figure -01 UART Packet
 
+<br>
+
 **UART in LPC2148**
 
 Coming to UART in LPC2148, the LPC214x series of MCUs have two UART blocks called UART0 and UART1. Each UART block is associated with two pins, one for transmission and the other for receiving.
@@ -52,6 +54,8 @@ There are many registers involved with the UART blocks. UART0 and UART1 have a s
 ![image](https://user-images.githubusercontent.com/36288975/203729175-35823e84-cdad-4cd2-8334-2a7477de528f.png)
 
 Figure -02 UART interface virtual terminal
+
+<br><br><br><br><br><br><br>
 
 ## Kiel - Program:
 ```c
