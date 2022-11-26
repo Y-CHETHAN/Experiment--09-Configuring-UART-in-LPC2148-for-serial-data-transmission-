@@ -14,7 +14,7 @@ As UART is a serial communication, the data is transmitted in a series of packet
 
 Figure -01 UART Packet
 
-<br><br><br><br>
+<br><br>
 
 **UART in LPC2148**
 
